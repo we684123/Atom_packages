@@ -37,7 +37,7 @@ Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#availa
 另支援輸出 PDF、PNG、JPEG 的檔案。    
 更多功能[點此網址](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/)。    
 
-![Imgur](https://i.imgur.com/gBuK4Lj.gifv)
+![Markdown preview enhanced的使用狀況](https://i.imgur.com/gBuK4Lj.gif)
 
 
 ### [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)
