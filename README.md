@@ -33,7 +33,7 @@ Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#availa
 
 ### [Markdown preview enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
 強大的 Markdown 及時預覽工具，可與 code 同步位置捲動。    
-可用他查看用 Markdown 格式的投影片、流程圖、LaTeX數學、電子書...等
+可用他查看用 Markdown 格式的投影片、流程圖、LaTeX數學、電子書...等    
 另支援輸出 PDF、PNG、JPEG 的檔案。    
 更多功能[點此網址](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/)。    
 
@@ -65,7 +65,7 @@ Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#availa
 
 
 ### [Activate Power Mode](https://github.com/JoelBesada/activate-power-mode)
-讓你輸入 code 特別有氣勢的東西(?
+讓你輸入 code 特別有氣勢的東西(?    
 話說我覺得 combo 太干擾我的節奏就關了
 
 
