@@ -14,6 +14,7 @@
 
 ### [Highlight Selected](https://github.com/richrace/highlight-selected)
 輕點2下自動高亮
+
 ![Gif in action](http://i.imgur.com/C5FnzzQ.gif)
 
 
@@ -24,19 +25,19 @@
 
 
 ### [Minimap](https://github.com/atom-minimap/minimap)
-可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。
+可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
 Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
 
 ![Imgur](https://i.imgur.com/qZoWRw3.png)
 
 
 ### [Markdown preview enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
-強大的 Markdown 及時預覽工具，可與 code 同步位置捲動。
+強大的 Markdown 及時預覽工具，可與 code 同步位置捲動。    
 可用他查看用 Markdown 格式的投影片、流程圖、LaTeX數學、電子書...等
-另支援輸出 PDF、PNG、JPEG 的檔案。
-更多功能[點此網址](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/)。
+另支援輸出 PDF、PNG、JPEG 的檔案。    
+更多功能[點此網址](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/)。    
 
-![Imgur](https://i.imgur.com/gBuK4Lj.gif)
+![Imgur](https://i.imgur.com/gBuK4Lj.gifv)
 
 
 ### [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)
@@ -73,7 +74,7 @@ Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#availa
 
 
 ### [Atom cht menu](https://github.com/Sheng-Bo/atom-cht-menu)
-Atom 中文化
+Atom 中文化    
 感謝作者大大m(_ _)m  雖然已經看習慣英文了
 
 ![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
@@ -97,7 +98,7 @@ Atom 中文化
 ## TypeScript + JavaScript 系列
 
 ### [Atom typescript](https://github.com/TypeStrong/atom-typescript)
-撰寫 TypeScript 一定要裝的套件
+撰寫 TypeScript 一定要裝的套件    
 自動完成輸入、向下編譯、程式碼bug提示...等功能。
 
 -   Autocomplete
@@ -131,4 +132,5 @@ Atom 中文化
 
 ### [Autocomplete python](https://github.com/autocomplete-python/autocomplete-python)
 自動補全 python 程式碼
+
 ![自動補全 python 程式碼](https://cloud.githubusercontent.com/assets/193864/12288427/61fe2114-ba0f-11e5-9832-98869180d87f.gif)
