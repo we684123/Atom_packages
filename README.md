@@ -26,7 +26,7 @@
 
 ### [Minimap](https://github.com/atom-minimap/minimap)
 可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
-Minimap[有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
+Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
 
 ![Imgur](https://i.imgur.com/qZoWRw3.png)
 
