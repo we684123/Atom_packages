@@ -90,9 +90,21 @@ Atom 中文化
 ![Project Overview](https://wakatime.com/static/img/ScreenShots/Screen-Shot-2016-03-21.png)
 
 
-### [Git time machine](https://github.com/littlebee/git-time-machine)
-可用圖示化的方式來查看 git commit 差異
+### [Git time machine](https://github.com/littlebee/git-time-machine)    
+可用圖示化的方式來查看 git commit 差異    
 ![Git time machine GIF](https://raw.githubusercontent.com/littlebee/git-time-machine/master/resources/timemachine.gif)
+
+
+
+###[context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
+Atom插件，管理右键菜单。    
+
+清理菜单 显示快捷键      
+![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/compare.png)     
+
+管理界面      
+![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/manager-view.png)     
+
 
 ---
 ## TypeScript + JavaScript 系列
