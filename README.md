@@ -75,7 +75,7 @@ Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#avail
 
 ### [Atom cht menu](https://github.com/Sheng-Bo/atom-cht-menu)
 Atom 中文化    
-感謝作者大大m(_ _)m  雖然已經看習慣英文了
+感謝作者大大m(_ \_)m  雖然已經看習慣英文了
 
 ![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
 
@@ -84,6 +84,13 @@ Atom 中文化
 
 ![demo](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
 
+
+
+### [Atom-i18n](https://github.com/liuderchi/atom-i18n)
+Atom 中文化
+嚴格來說是國際化，使用 i18n 的方式翻譯。
+而且這個套件不會拖到什麼效能，比上一個好很多，推推。
+![](https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png)
 
 ### [wakatime](https://github.com/wakatime/atom-wakatime)
 紀錄你的 coding 時間，可同步其他的編輯器紀錄，也可每周寄報表到你的信箱。
