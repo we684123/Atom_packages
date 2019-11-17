@@ -96,7 +96,7 @@ Atom 中文化
 
 
 
-###[context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
+### [context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
 Atom插件，管理右键菜单。    
 
 清理菜单 显示快捷键      
