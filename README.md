@@ -113,6 +113,11 @@ Atom插件，管理右键菜单。
 ![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/manager-view.png)     
 
 
+### [A Color Picker for Atom](https://github.com/thomaslindstrom/color-picker)
+有需要選顏色的話我想這是最強的了    
+![](https://raw.githubusercontent.com/thomaslindstrom/color-picker/master/preview.gif)    
+
+
 ---
 ## TypeScript + JavaScript 系列
 
