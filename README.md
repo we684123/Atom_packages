@@ -1,8 +1,8 @@
 # Atom 套件推薦
 
 ## 目錄：
-- [基礎套件](#基礎套件：)
-- [TypeScript + JavaScript 系列](#TypeScript-+-JavaScript-系列)
+- [基礎套件](#基礎套件)
+- [TypeScript + JavaScript 系列](#typescript--javascript-系列)
 - [Python 系列](#Python-系列)
 
 
