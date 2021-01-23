@@ -348,3 +348,6 @@ Atom插件，管理右键菜单。
 <br>![](https://cloud.githubusercontent.com/assets/4278113/22865536/0a123074-f188-11e6-8c6e-38574a6fe14c.gif)
 
 # 參考資料
+- [開發環境建構](https://github.com/TSVS-Special-Topic-Group/Development-Environment-Build)
+- [Atom 套件推薦](https://github.com/we684123/Atom_packages/tree/8663ebefbbcaf7003b6806314be70cc751cc7773)
+- [Setting up Atom as a Python IDE [A How To Guide]](https://hackernoon.com/setting-up-atom-as-a-python-ide-a-how-to-guide-o6dd37ff)
