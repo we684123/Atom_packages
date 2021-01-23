@@ -46,6 +46,13 @@
   - [Python 系列](#python-系列)
     - [Hydrogen](#hydrogenhttpsgithubcomnteracthydrogen)
     - [Autocomplete python](#autocomplete-pythonhttpsgithubcomautocomplete-pythonautocomplete-python)
+    - [PLC](#plc)
+    - [Gettext](#gettext)
+    - [Markdown](#markdown)
+    - [Python](#python)
+    - [Verilog and VHDL](#verilog-and-vhdl)
+    - [reStructuredText](#restructuredtext)
+    - [Tool](#tool)
 - [參考資料](#參考資料)
 
 <!-- /code_chunk_output -->
@@ -296,5 +303,48 @@ Atom插件，管理右键菜单。
 自動補全 python 程式碼
 
 ![自動補全 python 程式碼](https://cloud.githubusercontent.com/assets/193864/12288427/61fe2114-ba0f-11e5-9832-98869180d87f.gif)
+
+### PLC
+- [language-structured-text](https://atom.io/packages/language-structured-text):PLC程式語法套件。  
+
+### Gettext
+- [language-text](https://atom.io/packages/language-text):  
+- [language-structured-text](https://atom.io/packages/language-structured-text):  
+- [language-as-structured-text](https://atom.io/packages/language-as-structured-text):  
+
+### Markdown
+- [pdf-view](https://atom.io/packages/pdf-view):檢視PDF檔案的套件，基本上不用設定即可使用。
+- [markdown-toc](https://atom.io/packages/markdown-toc):製作目錄的工具，當建立成功後在存檔時會自動更新，但目前有一些Buy存在，當編輯的頁面關起或換到其他Markdown文件時，新增目錄的動作會在就頁面使用，會被鎖定在以更換的頁面中持續新增，必須重新開啟才可解決，目前都統一使用[markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)套件。
+- [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced):功能最強大的markdown套件，包括跟蹤滾動頁面、內建PDF轉換程式、照片貼上、照片上傳處理等，為內建套件`markdown-preview`的更強大套件，預設上會將內建的停用，並且刪除雙空白`  `換行，頁面以高亮風格為預設，不過可以自行設定使用Atom的Dock風格。內建`markdown-toc`的功能並且錯誤問題較少。
+- [markdown-table-editor](https://atom.io/packages/markdown-table-editor):製作表格工具，快速有效率。
+- [insert-timestamp](https://atom.io/packages/insert-timestamp):時間戳製作功能，寫部落格式很棒的工具。
+- [markdown-image-insert](https://atom.io/packages/markdown-image-insert):大陸人製作，雖然不會與照片衝突，但有一些小問題。
+- [markdown-image-insertion](https://atom.io/packages/markdown-image-insertion):不提供快捷鍵，使用`Ctrl + Shift + P`來呼叫此功能出來，基本上不會與其他快捷鍵衝突。
+- [markdown-pdf](https://atom.io/packages/markdown-pdf):讓Mark-down可以輸出為pdf藉此輸出，但輸出後不會將照片嵌入，不是很好用。
+- [markdown-image-assistant](https://atom.io/packages/markdown-image-assistant):一個很好用的照片貼上套件，可以將照片拖曳到指定的欄位，使用`Ctrl + Shift + V`的快捷鍵，不影響原始的複製貼上快捷鍵。
+
+### Python
+- [Hydrogen](https://atom.io/packages/Hydrogen):使用此可以在編輯Python時像Jupyter一樣編輯後馬上可以看到程式執行結果，此套件不需要相依[atom-ide-ui](https://atom.io/packages/atom-ide-ui)與[linter](https://atom.io/packages/linter)。
+- [kite](https://atom.io/packages/kite):
+- [autocomplete-python](https://atom.io/packages/autocomplete-python):Python變數、函式、模組、套件、除錯、自動輸入，使用Jedi與Kite技術作為支援，也是Kite官網在Atom上所指定與承認的套件，因此套件不需要相依[atom-ide-ui](https://atom.io/packages/atom-ide-ui)與[linter](https://atom.io/packages/linter)。
+
+### Verilog and VHDL
+- [language-verilog](https://atom.io/packages/language-verilog):Verilog程式碼語法標記，這個可以優先安裝，因為可以找出Verilog檔案。
+- [language-vhdl](https://atom.io/packages/language-vhdl):VHDL程式碼語法標記，這個可以優先安裝，因為可以找出VHDL檔案。
+- [verilog-tools](https://atom.io/packages/verilog-tools):看不出來怎麼使用，好像是自動化相關的程式。
+- [lancelot-language-hdl](https://atom.io/packages/lancelot-language-hdl):nand2tetris課程的HDL的程式碼語法標記和現有晶片摘要，還是不懂這是要做什麼。
+
+### reStructuredText
+- [rst-preview-pandoc](https://atom.io/packages/rst-preview-pandoc)
+- [atom-rst-preview-docutils](https://atom.io/packages/atom-rst-preview-docutils)
+- [language-restructuredtext](https://atom.io/packages/language-restructuredtext)
+
+### Tool
+- [cht-menu](https://atom.io/packages/cht-menu):讓Atom顯示繁體中文介面。
+- [intentions](https://atom.io/packages/intentions):將色碼顏色顯示在色碼下方。
+- [teletype](https://atom.io/packages/teletype):允許開發人員與團隊成員共享他們的工作區，並同時協作代碼。
+- [busy-signal](https://atom.io/packages/busy-signal):顯示其他套件是否執行忙碌。
+
+<br>![](https://cloud.githubusercontent.com/assets/4278113/22865536/0a123074-f188-11e6-8c6e-38574a6fe14c.gif)
 
 # 參考資料
