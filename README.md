@@ -1,5 +1,5 @@
 # Atom套件推薦
-主要介紹Atom的程式開發、「整合開發環境」(IDE)、「除錯工具」(Debugger tool)等套件，主要以Python、TypeScript、JavaScript、Markdown的工具。
+主要介紹Atom的程式開發、「整合開發環境」(IDE)、「除錯工具」(Debugger tool)等套件，主要以Python、C、TypeScript、JavaScript、Markdown的工具。
 
 # 目錄
 
@@ -26,21 +26,6 @@
   - [Atom IDE UI for Python](#atom-ide-ui-for-python)
   - [Atom IDE UI for VHDL and Verilog](#atom-ide-ui-for-vhdl-and-verilog)
 - [Other](#other)
-    - [Atom Beautify](#atom-beautifyhttpsgithubcomglavin001atom-beautify)
-    - [Highlight Selected](#highlight-selectedhttpsgithubcomrichracehighlight-selected)
-    - [File Icons](#file-iconshttpsatomiopackagesfile-icons)
-    - [Minimap](#minimaphttpsgithubcomatom-minimapminimap)
-    - [Platformio ide terminal](#platformio-ide-terminalhttpsgithubcomplatformioplatformio-atom-ide-terminal)
-    - [terminal-plus](#terminal-plushttpsatomiopackagesterminal-plus)
-    - [Sync settings](#sync-settingshttpsgithubcomatom-communitysync-settings)
-    - [Regex railroad diagram](#regex-railroad-diagramhttpsgithubcomklorenzatom-regex-railroad-diagrams)
-    - [Activate Power Mode](#activate-power-modehttpsgithubcomjoelbesadaactivate-power-mode)
-    - [Atom cht menu](#atom-cht-menuhttpsatomiopackagesplatformio-ide-terminal)
-    - [Teletype](#teletypehttpsgithubcomatomteletype)
-    - [Atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n)
-    - [wakatime](#wakatimehttpsgithubcomwakatimeatom-wakatime)
-    - [Git time machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine)
-    - [context-menu-manager](#context-menu-managerhttpsgithubcomhughfenghencontext-menu-manager)
   - [TypeScript + JavaScript 系列](#typescript-javascript-系列)
     - [Atom typescript](#atom-typescripthttpsgithubcomtypestrongatom-typescript)
     - [Atom jsdoc](#atom-jsdochttpsgithubcomcoffuttatom-jsdoc)
@@ -54,20 +39,20 @@
   - [Verilog and VHDL](#verilog-and-vhdl)
   - [reStructuredText](#restructuredtext)
   - [Tool](#tool)
-    - [Atom Beautify](#atom-beautifyhttpsgithubcomglavin001atom-beautify-1)
-    - [Highlight Selected](#highlight-selectedhttpsgithubcomrichracehighlight-selected-1)
-    - [File Icons](#file-iconshttpsatomiopackagesfile-icons-1)
-    - [Minimap](#minimaphttpsgithubcomatom-minimapminimap-1)
-    - [Platformio ide terminal](#platformio-ide-terminalhttpsgithubcomplatformioplatformio-atom-ide-terminal-1)
-    - [Sync settings](#sync-settingshttpsgithubcomatom-communitysync-settings-1)
-    - [Regex railroad diagram](#regex-railroad-diagramhttpsgithubcomklorenzatom-regex-railroad-diagrams-1)
-    - [Activate Power Mode](#activate-power-modehttpsgithubcomjoelbesadaactivate-power-mode-1)
-    - [Atom cht menu](#atom-cht-menuhttpsatomiopackagesplatformio-ide-terminal-1)
-    - [Teletype](#teletypehttpsgithubcomatomteletype-1)
-    - [Atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n-1)
-    - [wakatime](#wakatimehttpsgithubcomwakatimeatom-wakatime-1)
-    - [Git time machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine-1)
-    - [context-menu-manager](#context-menu-managerhttpsgithubcomhughfenghencontext-menu-manager-1)
+    - [Atom Beautify](#atom-beautifyhttpsgithubcomglavin001atom-beautify)
+    - [Highlight Selected](#highlight-selectedhttpsgithubcomrichracehighlight-selected)
+    - [File Icons](#file-iconshttpsatomiopackagesfile-icons)
+    - [Minimap](#minimaphttpsgithubcomatom-minimapminimap)
+    - [Platformio ide terminal](#platformio-ide-terminalhttpsgithubcomplatformioplatformio-atom-ide-terminal)
+    - [Sync settings](#sync-settingshttpsgithubcomatom-communitysync-settings)
+    - [Regex railroad diagram](#regex-railroad-diagramhttpsgithubcomklorenzatom-regex-railroad-diagrams)
+    - [Activate Power Mode](#activate-power-modehttpsgithubcomjoelbesadaactivate-power-mode)
+    - [Atom cht menu](#atom-cht-menuhttpsatomiopackagesplatformio-ide-terminal)
+    - [Teletype](#teletypehttpsgithubcomatomteletype)
+    - [Atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n)
+    - [wakatime](#wakatimehttpsgithubcomwakatimeatom-wakatime)
+    - [Git time machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine)
+    - [context-menu-manager](#context-menu-managerhttpsgithubcomhughfenghencontext-menu-manager)
 - [參考資料](#參考資料)
 
 <!-- /code_chunk_output -->
@@ -169,104 +154,6 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 # Other
 其他通常代表可以不用相依某些套件就可以使用，可能是語言支援、顏色標記語法、自動填入等功能。
-
-### [Atom Beautify](https://github.com/Glavin001/atom-beautify)
-只需要簡單的按下`Ctrl+Alt+B`便會把你的 code 排列得整整齊齊，省去排版所浪費的時間。
-
-> Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
-
-| Before | After |
-| --- | ---- |
-| Original HTML | Beautified HTML |
-| ![image](https://cloud.githubusercontent.com/assets/1885333/16542727/db52adc6-408a-11e6-824e-04aed06bd2f7.png) | ![image](https://cloud.githubusercontent.com/assets/1885333/16542728/dcac3700-408a-11e6-8e35-9c8fc4432edc.png) |
-
-
-### [Highlight Selected](https://github.com/richrace/highlight-selected)
-輕點2下自動高亮
-
-![Gif in action](http://i.imgur.com/C5FnzzQ.gif)
-
-### [File Icons](https://atom.io/packages/file-icons)
-幫文件加上 icons ，方便識別文件。    
-
-![Imgur](https://i.imgur.com/TrCvBWn.png)
-
-
-### [Minimap](https://github.com/atom-minimap/minimap)
-可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
-Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
-
-![Imgur](https://i.imgur.com/qZoWRw3.png)
-
-### [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)
-能讓你在Atom中開啟終端(CLI、CMD)。
-
-![Imgur](https://i.imgur.com/YrIwZMQ.gif)
-
-### [terminal-plus](https://atom.io/packages/terminal-plus)
-能讓你在Atom中開啟終端(CLI、CMD)，目前最新的版本為`v0.14.5`，後續就沒有再維護了，建議使用 [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)。
-
-### [Sync settings](https://github.com/atom-community/sync-settings)
-可用來 **同步或備份** 你的 Atom 所有套件、設定。
-* Sync Atom's and package settings
-* Sync installed packages
-* Sync user keymaps
-* Sync user styles
-* Sync user init script
-* Sync snippets
-* Sync user defined text files
-
-
-### [Regex railroad diagram](https://github.com/klorenz/atom-regex-railroad-diagrams)
-讓你複雜的正則式以圖形化的方式呈現
-終於不是寫完後就變成無字天書了QwQ
-
-![regex-railraod-diagram in action](https://raw.githubusercontent.com/klorenz/atom-regex-railroad-diagrams/master/regex-railroad-diagrams.png)
-
-
-### [Activate Power Mode](https://github.com/JoelBesada/activate-power-mode)
-讓你輸入 code 特別有氣勢的東西(?    
-話說我覺得 combo 太干擾我的節奏就關了
-
-![activate-power-mode-0 4 0](https://cloud.githubusercontent.com/assets/688415/11615565/10f16456-9c65-11e5-8af4-265f01fc83a0.gif)
-![activate-power-mode-combo](https://cloud.githubusercontent.com/assets/10590799/18817237/876c2d84-8321-11e6-8324-f1540604c0bd.gif)
-
-
-### [Atom cht menu](https://atom.io/packages/platformio-ide-terminal)
-Atom 中文化    
-感謝作者大大 m(_ \ _)m  雖然已經看習慣英文了
-
-![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
-
-### [Teletype](https://github.com/atom/teletype)
-能夠讓你跟其他人同時編輯同一份文件的東東。
-
-![demo](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
-
-### [Atom-i18n](https://github.com/liuderchi/atom-i18n)
-Atom 中文化
-嚴格來說是國際化，使用 i18n 的方式翻譯。
-而且這個套件不會拖到什麼效能，比上一個好很多，推推。
-![](https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png)
-
-### [wakatime](https://github.com/wakatime/atom-wakatime)
-紀錄你的 coding 時間，可同步其他的編輯器紀錄，也可每周寄報表到你的信箱。
-![Project Overview](https://wakatime.com/static/img/ScreenShots/Screen-Shot-2016-03-21.png)
-
-
-### [Git time machine](https://github.com/littlebee/git-time-machine)    
-可用圖示化的方式來查看 git commit 差異  
-
-![Git time machine GIF](https://raw.githubusercontent.com/littlebee/git-time-machine/master/resources/timemachine.gif)
-
-### [context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
-Atom插件，管理右键菜单。    
-
-清理菜单 显示快捷键      
-![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/compare.png)     
-
-管理界面      
-![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/manager-view.png)     
 
 ## TypeScript + JavaScript 系列
 
