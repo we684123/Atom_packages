@@ -191,7 +191,7 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 ![hero](https://cloud.githubusercontent.com/assets/13285808/20360886/7e03e524-ac03-11e6-9176-37677f226619.gif)
 
 ### [Autocomplete python](https://github.com/autocomplete-python/autocomplete-python)
-自動補全 python 程式碼
+自動補全 Python 程式碼
 
 ![自動補全 python 程式碼](https://cloud.githubusercontent.com/assets/193864/12288427/61fe2114-ba0f-11e5-9832-98869180d87f.gif)
 
@@ -205,13 +205,13 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 ## Markdown
 - [pdf-view](https://atom.io/packages/pdf-view)：檢視PDF檔案的套件，基本上不用設定即可使用。
-- [markdown-toc](https://atom.io/packages/markdown-toc)：製作目錄的工具，當建立成功後在存檔時會自動更新，但目前有一些Buy存在，當編輯的頁面關起或換到其他 Markdown 文件時，新增目錄的動作會在就頁面使用，會被鎖定在以更換的頁面中持續新增，必須重新開啟才可解決，目前都統一使用 [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced) 套件。
+- [markdown-toc](https://atom.io/packages/markdown-toc)：製作目錄的工具，當建立成功後在存檔時會自動更新，但目前有一些 bug 存在，當編輯的頁面關起或換到其他 Markdown 文件時，新增目錄的動作會在就頁面使用，會被鎖定在以更換的頁面中持續新增，必須重新開啟才可解決，目前都統一使用 [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced) 套件。
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)：功能最強大的markdown套件，包括跟蹤滾動頁面、內建 PDF 轉換程式、照片貼上、照片上傳處理等，為內建套件`markdown-preview`的更強大套件，預設上會將內建的停用，並且刪除雙空白`  `換行，頁面以高亮風格為預設，不過可以自行設定使用 Atom 的 Dock 風格。內建`markdown-toc`的功能並且錯誤問題較少。
 - [markdown-table-editor](https://atom.io/packages/markdown-table-editor)：製作表格工具，快速有效率。
 - [insert-timestamp](https://atom.io/packages/insert-timestamp)：時間戳製作功能，寫部落格式很棒的工具。
-- [markdown-image-insert](https://atom.io/packages/markdown-image-insert)：大陸人製作，雖然不會與照片衝突，但有一些小問題。
+- [markdown-image-insert](https://atom.io/packages/markdown-image-insert)：中國人製作，雖然不會與照片衝突，但有一些小問題。
 - [markdown-image-insertion](https://atom.io/packages/markdown-image-insertion)：不提供快捷鍵，使用`Ctrl + Shift + P`來呼叫此功能出來，基本上不會與其他快捷鍵衝突。
-- [markdown-pdf](https://atom.io/packages/markdown-pdf)：讓 Mark-down 可以輸出為 pdf 藉此輸出，但輸出後不會將照片嵌入，不是很好用。
+- [markdown-pdf](https://atom.io/packages/markdown-pdf)：讓 Mark-down 可以輸出為 PDF 藉此輸出，但輸出後不會將照片嵌入，不是很好用。
 - [markdown-image-assistant](https://atom.io/packages/markdown-image-assistant)：一個很好用的照片貼上套件，可以將照片拖曳到指定的欄位，使用`Ctrl + Shift + V`的快捷鍵，不影響原始的複製貼上快捷鍵。
 
 ### [Markdown preview enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
