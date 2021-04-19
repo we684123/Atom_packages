@@ -124,10 +124,10 @@ IDE界面整合器，目前還有在更新，建議使用這個套件。
 ![](https://raw.githubusercontent.com/AtomLinter/linter-pylama/master/in_action.gif)
 
 ### [python-linters](https://atom.io/packages/python-linters)
+
 [![repo status Active](https://www.repostatus.org/badges/latest/active.svg "repo status Active")](https://www.repostatus.org/#active)
 [![last commit](https://img.shields.io/github/last-commit/elarivie/atom-python-linters)](https://github.com/elarivie/atom-python-linters/commits/master)
-
-[![python-linters_BugTracker](https://img.shields.io/github/issues/elarivie/atom-python-linters.svg)][python-linters_BugTracker]
+[![python-linters_BugTracker](https://img.shields.io/github/issues/elarivie/atom-python-linters.svg)]([python-linters_BugTracker])
 [![Build Status](https://travis-ci.org/elarivie/atom-python-linters.svg?branch=master)](https://travis-ci.org/elarivie/atom-python-linters)
 
 Python的自動化檢查程式，可以取代[linter](https://atom.io/packages/linter)一系列套件，相當不錯，但不可與其他linter其他檢查套件共存使用，會出現錯誤訊息，相依[linter](https://atom.io/packages/linter)，我現在都是使用這個。
@@ -297,7 +297,7 @@ Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#avail
 
 ### [Atom cht menu](https://atom.io/packages/platformio-ide-terminal)
 Atom 中文化    
-感謝作者大大 m(_ \ _)m  雖然已經看習慣英文了
+感謝作者大大 m(_ \_)m  雖然已經看習慣英文了
 
 ![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
 
@@ -321,9 +321,7 @@ Atom 中文化
 ![Git time machine GIF](https://raw.githubusercontent.com/littlebee/git-time-machine/master/resources/timemachine.gif)
 
 ### [context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
-Atom插件，管理右键菜单。    
-
-清理菜单 显示快捷键      
+自定義右键選單。    
 ![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/compare.png)     
 
 管理界面      
