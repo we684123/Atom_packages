@@ -239,11 +239,11 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 ## Tool
 
 ### [intentions](https://atom.io/packages/intentions)
-將色碼顏色顯示在色碼下方。
+將色碼顏色顯示在色碼下方。    
 ![Intentions List API](https://cloud.githubusercontent.com/assets/4278113/12488546/e73809ba-c08d-11e5-8038-dd222f3a815d.png)
 
 ### [busy-signal](https://atom.io/packages/busy-signal)
-顯示其他套件是否執行忙碌。
+顯示其他套件是否執行忙碌。    
 ![](https://cloud.githubusercontent.com/assets/4278113/22865536/0a123074-f188-11e6-8c6e-38574a6fe14c.gif)
 
 ### [Atom Beautify](https://github.com/Glavin001/atom-beautify)
