@@ -142,9 +142,10 @@ Python的自動化檢查程式，可以取代 [linter](https://atom.io/packages/
 - [linter-quartus](https://atom.io/packages/linter-quartus)：可以使用繞過 Quartus 通過 ModelSim 驗證與模擬電路，目前還不知道怎麼使用。
 
 ## linter for C
+(#ToDo)
 
 # Atom IDE UI
-IDE界面整合器，讓不同的套件可以在這上面使用，以下套件為相依此套件的軟體，必須安裝[atom-ide-ui](https://atom.io/packages/atom-ide-ui)才能使用，建議別使用此IDE套件與相關套件，因為 Facebook 與 GitHub 已經宣佈取消繼續維護。
+IDE界面整合器，讓不同的套件可以在這上面使用，以下套件為相依此套件的軟體，必須安裝 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 才能使用，建議別使用此IDE套件與相關套件，因為 Facebook 與 GitHub 已經宣佈取消繼續維護。
 
 ## Atom IDE UI for Python
 - [atom-ide-debugger-python](https://atom.io/packages/atom-ide-debugger-python)：Python的除錯套件。
@@ -183,11 +184,11 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 ## Python
 - [Hydrogen](https://atom.io/packages/Hydrogen)：使用此可以在編輯 Python 時像 Jupyter 一樣編輯後馬上可以看到程式執行結果，此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
-- [kite](https://atom.io/packages/kite)
+- [kite](https://atom.io/packages/kite)：(#ToDo)
 - [autocomplete-python](https://atom.io/packages/autocomplete-python)：Python 變數、函式、模組、套件、除錯、自動輸入，使用 Jedi 與 Kite 技術作為支援，也是 Kite 官網在 Atom 上所指定與承認的套件，因此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
 
 ### [Hydrogen](https://github.com/nteract/hydrogen)
-及時執行 python 指令並看到成果 (真的超強的...
+及時執行 Python 指令並看到成果 (真的超強的...
 ![hero](https://cloud.githubusercontent.com/assets/13285808/20360886/7e03e524-ac03-11e6-9176-37677f226619.gif)
 
 ### [Autocomplete python](https://github.com/autocomplete-python/autocomplete-python)
@@ -204,7 +205,7 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 - [language-as-structured-text](https://atom.io/packages/language-as-structured-text)    
 
 ## Markdown
-- [pdf-view](https://atom.io/packages/pdf-view)：檢視PDF檔案的套件，基本上不用設定即可使用。
+- [pdf-view](https://atom.io/packages/pdf-view)：檢視 PDF 檔案的套件，基本上不用設定即可使用。
 - [markdown-toc](https://atom.io/packages/markdown-toc)：製作目錄的工具，當建立成功後在存檔時會自動更新，但目前有一些 bug 存在，當編輯的頁面關起或換到其他 Markdown 文件時，新增目錄的動作會在就頁面使用，會被鎖定在以更換的頁面中持續新增，必須重新開啟才可解決，目前都統一使用 [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced) 套件。
 - [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced)：功能最強大的markdown套件，包括跟蹤滾動頁面、內建 PDF 轉換程式、照片貼上、照片上傳處理等，為內建套件`markdown-preview`的更強大套件，預設上會將內建的停用，並且刪除雙空白`  `換行，頁面以高亮風格為預設，不過可以自行設定使用 Atom 的 Dock 風格。內建`markdown-toc`的功能並且錯誤問題較少。
 - [markdown-table-editor](https://atom.io/packages/markdown-table-editor)：製作表格工具，快速有效率。
