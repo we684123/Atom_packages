@@ -26,7 +26,7 @@
   - [Atom IDE UI for Python](#atom-ide-ui-for-python)
   - [Atom IDE UI for VHDL and Verilog](#atom-ide-ui-for-vhdl-and-verilog)
 - [Other](#other)
-  - [TypeScript + JavaScript 系列](#typescript-\+-javascript-系列)
+  - [TypeScript + JavaScript 系列](#typescript--javascript-系列)
     - [Atom typescript](#atom-typescripthttpsgithubcomtypestrongatom-typescript)
     - [Atom jsdoc](#atom-jsdochttpsgithubcomcoffuttatom-jsdoc)
   - [Python](#python)
