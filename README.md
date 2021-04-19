@@ -235,12 +235,14 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 - [language-restructuredtext](https://atom.io/packages/language-restructuredtext)
 
 ## Tool
-- [cht-menu](https://atom.io/packages/cht-menu)：讓 Atom 顯示繁體中文介面。
-- [intentions](https://atom.io/packages/intentions)：將色碼顏色顯示在色碼下方。
-- [teletype](https://atom.io/packages/teletype)：允許開發人員與團隊成員共享他們的工作區，並同時協作代碼。
-- [busy-signal](https://atom.io/packages/busy-signal)：顯示其他套件是否執行忙碌。
 
-<br>![](https://cloud.githubusercontent.com/assets/4278113/22865536/0a123074-f188-11e6-8c6e-38574a6fe14c.gif)
+### [intentions](https://atom.io/packages/intentions)
+將色碼顏色顯示在色碼下方。
+![Intentions List API](https://cloud.githubusercontent.com/assets/4278113/12488546/e73809ba-c08d-11e5-8038-dd222f3a815d.png)
+
+### [busy-signal](https://atom.io/packages/busy-signal)
+顯示其他套件是否執行忙碌。
+![](https://cloud.githubusercontent.com/assets/4278113/22865536/0a123074-f188-11e6-8c6e-38574a6fe14c.gif)
 
 ### [Atom Beautify](https://github.com/Glavin001/atom-beautify)
 只需要簡單的按下`Ctrl+Alt+B`便會把你的 code 排列得整整齊齊，省去排版所浪費的時間。
