@@ -41,15 +41,15 @@
   - [Tool](#tool)
     - [Atom Beautify](#atom-beautifyhttpsgithubcomglavin001atom-beautify)
     - [Highlight Selected](#highlight-selectedhttpsgithubcomrichracehighlight-selected)
-    - [File Icons](#file-iconshttpsatomiopackagesfile-icons)
     - [Minimap](#minimaphttpsgithubcomatom-minimapminimap)
+    - [File Icons](#file-iconshttpsatomiopackagesfile-icons)
     - [Platformio ide terminal](#platformio-ide-terminalhttpsgithubcomplatformioplatformio-atom-ide-terminal)
     - [Sync settings](#sync-settingshttpsgithubcomatom-communitysync-settings)
     - [Regex railroad diagram](#regex-railroad-diagramhttpsgithubcomklorenzatom-regex-railroad-diagrams)
     - [Activate Power Mode](#activate-power-modehttpsgithubcomjoelbesadaactivate-power-mode)
     - [Atom cht menu](#atom-cht-menuhttpsatomiopackagesplatformio-ide-terminal)
-    - [Teletype](#teletypehttpsgithubcomatomteletype)
     - [Atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n)
+    - [Teletype](#teletypehttpsgithubcomatomteletype)
     - [wakatime](#wakatimehttpsgithubcomwakatimeatom-wakatime)
     - [Git time machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine)
     - [context-menu-manager](#context-menu-managerhttpsgithubcomhughfenghencontext-menu-manager)
@@ -256,17 +256,16 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 ![Gif in action](http://i.imgur.com/C5FnzzQ.gif)
 
+### [Minimap](https://github.com/atom-minimap/minimap)
+可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
+Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。    
+
+![Imgur](https://i.imgur.com/qZoWRw3.png)
+
 ### [File Icons](https://atom.io/packages/file-icons)
 幫文件加上 icons ，方便識別文件。    
 
 ![Imgur](https://i.imgur.com/TrCvBWn.png)
-
-### [Minimap](https://github.com/atom-minimap/minimap)
-可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
-Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
-
-![Imgur](https://i.imgur.com/qZoWRw3.png)
-
 ### [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)
 能讓你在 Atom 中開啟終端(CLI、cmd)
 
@@ -301,16 +300,16 @@ Atom 中文化
 
 ![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
 
-### [Teletype](https://github.com/atom/teletype)
-能夠讓你跟其他人同時編輯同一份文件的東東。
-
-![demo](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
-
 ### [Atom-i18n](https://github.com/liuderchi/atom-i18n)
 Atom 中文化
 嚴格來說是國際化，使用 i18n 的方式翻譯。
 而且這個套件不會拖到什麼效能，比上一個好很多，推推。
 ![](https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png)
+
+### [Teletype](https://github.com/atom/teletype)
+能夠讓你跟其他人同時編輯同一份文件的東東。
+
+![demo](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
 
 ### [wakatime](https://github.com/wakatime/atom-wakatime)
 紀錄你的 coding 時間，可同步其他的編輯器紀錄，也可每周寄報表到你的信箱。
