@@ -186,7 +186,7 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 ## Python
 - [Hydrogen](https://atom.io/packages/Hydrogen)：使用此可以在編輯 Python 時像 Jupyter 一樣編輯後馬上可以看到程式執行結果，此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
-- [kite](https://atom.io/packages/kite)：(#ToDo)
+- [kite](https://atom.io/packages/kite)：使用人工智慧學習的自動補全套件，需要安裝Kite程式才可以運作，基本上還不錯。
 - [autocomplete-python](https://atom.io/packages/autocomplete-python)：Python 變數、函式、模組、套件、除錯、自動輸入，使用 Jedi 與 Kite 技術作為支援，也是 Kite 官網在 Atom 上所指定與承認的套件，因此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
 
 ### [Hydrogen](https://github.com/nteract/hydrogen)
