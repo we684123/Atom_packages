@@ -26,35 +26,52 @@
   - [Atom IDE UI for Python](#atom-ide-ui-for-python)
   - [Atom IDE UI for VHDL and Verilog](#atom-ide-ui-for-vhdl-and-verilog)
 - [Other](#other)
-  - [TypeScript + JavaScript 系列](#typescript-javascript-系列)
-    - [Atom typescript](#atom-typescripthttpsgithubcomtypestrongatom-typescript)
-    - [Atom jsdoc](#atom-jsdochttpsgithubcomcoffuttatom-jsdoc)
+  - [網頁設計](#網頁設計)
+    - [Icons](#icons)
+      - [seti-icons](#seti-iconshttpsatomiopackagesseti-icons)
+      - [svg-icons](#svg-iconshttpsatomiopackagessvg-icons)
+      - [icon-fonts](#icon-fontshttpsatomiopackagesicon-fonts)
+    - [TypeScript + JavaScript 系列](#typescript-javascript-系列)
+      - [atom-typescript](#atom-typescripthttpsgithubcomtypestrongatom-typescript)
+      - [atom-jsdoc](#atom-jsdochttpsgithubcomcoffuttatom-jsdoc)
   - [Python](#python)
-    - [Hydrogen](#hydrogenhttpsgithubcomnteracthydrogen)
-    - [Autocomplete python](#autocomplete-pythonhttpsgithubcomautocomplete-pythonautocomplete-python)
+    - [hydrogen](#hydrogenhttpsgithubcomnteracthydrogen)
+    - [autocomplete-python](#autocomplete-pythonhttpsgithubcomautocomplete-pythonautocomplete-python)
+    - [python-debugger](#python-debuggerhttpsatomiopackagespython-debugger)
+  - [C](#c)
+    - [gpp-compiler](#gpp-compiler)
   - [PLC](#plc)
   - [Gettext](#gettext)
   - [Markdown](#markdown)
     - [Markdown preview enhanced](#markdown-preview-enhancedhttpsgithubcomshd101wyymarkdown-preview-enhanced)
   - [Verilog and VHDL](#verilog-and-vhdl)
   - [reStructuredText](#restructuredtext)
+  - [Android](#android)
   - [Tool](#tool)
     - [intentions](#intentionshttpsatomiopackagesintentions)
     - [busy-signal](#busy-signalhttpsatomiopackagesbusy-signal)
     - [Atom Beautify](#atom-beautifyhttpsgithubcomglavin001atom-beautify)
-    - [Highlight Selected](#highlight-selectedhttpsgithubcomrichracehighlight-selected)
-    - [Minimap](#minimaphttpsgithubcomatom-minimapminimap)
-    - [File Icons](#file-iconshttpsatomiopackagesfile-icons)
-    - [Platformio ide terminal](#platformio-ide-terminalhttpsgithubcomplatformioplatformio-atom-ide-terminal)
+    - [highlight-selected](#highlight-selectedhttpsatomiopackageshighlight-selected)
+    - [minimap](#minimaphttpsatomiopackagesminimap)
+    - [Icons](#icons-1)
+      - [file-icons](#file-iconshttpsatomiopackagesfile-icons)
+      - [front-icons](#front-iconshttpsatomiopackagesfront-icons)
+      - [atom-file-icons](#atom-file-iconshttpsatomiopackagesatom-file-icons)
+      - [atom-icons](#atom-iconshttpsatomiopackagesatom-icons)
+    - [終端機](#終端機)
+      - [platformio-ide-terminal](#platformio-ide-terminalhttpsatomiopackagesplatformio-ide-terminal)
+      - [atom-ide-terminal](#atom-ide-terminalhttpsatomiopackagesatom-ide-terminal)
     - [Sync settings](#sync-settingshttpsgithubcomatom-communitysync-settings)
-    - [Regex railroad diagram](#regex-railroad-diagramhttpsgithubcomklorenzatom-regex-railroad-diagrams)
+    - [Regex](#regex)
+    - [atom-regex-railroad-diagrams](#atom-regex-railroad-diagramshttpsgithubcomklorenzatom-regex-railroad-diagrams)
     - [Activate Power Mode](#activate-power-modehttpsgithubcomjoelbesadaactivate-power-mode)
-    - [Atom cht menu](#atom-cht-menuhttpsatomiopackagesplatformio-ide-terminal)
-    - [Atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n)
-    - [Teletype](#teletypehttpsgithubcomatomteletype)
-    - [wakatime](#wakatimehttpsgithubcomwakatimeatom-wakatime)
-    - [Git time machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine)
+    - [cht-menu](#cht-menuhttpsatomiopackagescht-menu)
+    - [atom-i18n](#atom-i18nhttpsgithubcomliuderchiatom-i18n)
+    - [teletype](#teletypehttpsgithubcomatomteletype)
+    - [atom-wakatime](#atom-wakatimehttpsgithubcomwakatimeatom-wakatime)
+    - [git-time-machine](#git-time-machinehttpsgithubcomlittlebeegit-time-machine)
     - [context-menu-manager](#context-menu-managerhttpsgithubcomhughfenghencontext-menu-manager)
+    - [Diagram](#diagram)
 - [參考資料](#參考資料)
 
 <!-- /code_chunk_output -->
@@ -74,6 +91,8 @@
 - `atom-ide-markdown-service`
 
 還提供用於 Atom 的 TypeScript 套件。目前尚未測試，但應該會是很好用的。
+
+此為 Atom IDE UI 的基礎延伸出來，等於說也跟其他的也相容，因為 linter 也是在 Atom IDE UI 設計出來的。另外記得有一個IDE是以自己微基礎，不打算相容其他的特立獨行的IDE，但忘記名稱了。
 
 ## Atom IDE base for Python
 
@@ -144,6 +163,7 @@ Python的自動化檢查程式，可以取代 [linter](https://atom.io/packages/
 - [linter-quartus](https://atom.io/packages/linter-quartus)：可以使用繞過 Quartus 通過 ModelSim 驗證與模擬電路，目前還不知道怎麼使用。
 
 ## linter for C
+
 - linter-gcc
 
 # Atom IDE UI
@@ -158,45 +178,74 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 # Other
 其他通常代表可以不用相依某些套件就可以使用，可能是語言支援、顏色標記語法、自動填入等功能。
 
-## TypeScript + JavaScript 系列
+##網頁設計
 
-### [Atom typescript](https://github.com/TypeStrong/atom-typescript)
-撰寫 TypeScript 一定要裝的套件    
-自動完成輸入、向下編譯、程式碼bug提示...等功能。
+### Icons
+#### [seti-icons](https://atom.io/packages/seti-icons)
+最後更新時間是2017年，但最多人用。
 
--   Autocomplete
--   Live error analysis
--   Type information on hover
--   Compile on save
--   Project Context Support (`tsconfig.json`)
--   Project Build Support
--   `package.json` Support
--   Goto Declaration
--   Find References
--   Semantic view
--   Block comment and uncomment
--   Rename refactoring
--   Common Snippets
--   Alternative to symbols-view
+#### [svg-icons](https://atom.io/packages/svg-icons)
+最後更新時間是2021年，有更新但不是最多人用，未來有機會追過，通常 Atom 會優先將一直有更新的排名往前。
 
-### [Atom jsdoc](https://github.com/coffutt/atom-jsdoc)
+#### [icon-fonts](https://atom.io/packages/icon-fonts)
+最後更新時間是2021年。
+
+### TypeScript + JavaScript 系列
+
+#### [atom-typescript](https://github.com/TypeStrong/atom-typescript)
+撰寫 TypeScript 一定要裝的套件，自動完成輸入、向下編譯、程式碼bug提示...等功能。
+
+- Autocomplete
+- Live error analysis
+- Type information on hover
+- Compile on save
+- Project Context Support (`tsconfig.json`)
+- Project Build Support
+- `package.json` Support
+- Goto Declaration
+- Find References
+- Semantic view
+- Block comment and uncomment
+- Rename refactoring
+- Common Snippets
+- Alternative to symbols-view
+
+#### [atom-jsdoc](https://github.com/coffutt/atom-jsdoc)
 在 function 上按下 `Ctrl + Shift + j` 自動生成 jsdoc。
 
 ![Imgur](https://i.imgur.com/55OSyHD.png)
 
 ## Python
 - [Hydrogen](https://atom.io/packages/Hydrogen)：使用此可以在編輯 Python 時像 Jupyter 一樣編輯後馬上可以看到程式執行結果，此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
-- [kite](https://atom.io/packages/kite)：使用人工智慧學習的自動補全套件，需要安裝Kite程式才可以運作，基本上還不錯。
+- [kite](https://atom.io/packages/kite)：一個自動填寫的套件，使用了人工智慧與機器學習去學習，因此建議的內容相當的還算精準，如有大家都使用的字詞彙會自動跳出來，也是不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter) 等其他套件，但需要安裝Kite程式才可以運作，基本上還不錯。
 - [autocomplete-python](https://atom.io/packages/autocomplete-python)：Python 變數、函式、模組、套件、除錯、自動輸入，使用 Jedi 與 Kite 技術作為支援，也是 Kite 官網在 Atom 上所指定與承認的套件，因此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
+- [python-debugger](https://atom.io/packages/python-debugger)
 
-### [Hydrogen](https://github.com/nteract/hydrogen)
-及時執行 Python 指令並看到成果 (真的超強的...
+### [hydrogen](https://github.com/nteract/hydrogen)
+使用 JPython 的核心，當然可以選擇其他的核心，此套件也可以支援，最大的特色就是即時執行 Python 指令並看到成果 (真的超強的...
+
 ![hero](https://cloud.githubusercontent.com/assets/13285808/20360886/7e03e524-ac03-11e6-9176-37677f226619.gif)
 
-### [Autocomplete python](https://github.com/autocomplete-python/autocomplete-python)
-自動補全 Python 程式碼
+### [autocomplete-python](https://github.com/autocomplete-python/autocomplete-python)
+Python 變數、函式、模組、套件、除錯、自動輸入，使用 Jedi 與 Kite 技術作為支援，也是 Kite 官網在 Atom 上所指定與承認的套件，因此套件不需要相依 [atom-ide-ui](https://atom.io/packages/atom-ide-ui) 與 [linter](https://atom.io/packages/linter)。
 
 ![自動補全 python 程式碼](https://cloud.githubusercontent.com/assets/193864/12288427/61fe2114-ba0f-11e5-9832-98869180d87f.gif)
+
+### [python-debugger](https://atom.io/packages/python-debugger)
+Python 的記憶體檢查工具，可以說是 Python 的 GDB ，與 C 語言的 GDB 不同的是，指令使用方式是 PDB 。
+
+這個方式是比使用 `print` 的函式檢查變數來的方便，同時可以檢查內建數值與型態，是一個相當強大的套件，另外目前也不衝突。
+
+會使用這個可以減少在刪除 `print` 指令的時間，這件事情是很重要的事情，尤其維護大型的程式時會省很多時間。
+
+![Atom Python Debugger](https://github.com/dpo/atom-python-debugger/raw/master/screenshots/atom-python-debugger-demo.gif)
+
+## C
+### gpp-compiler
+可以像大學很多教學使用的整合開發環境 Dev++ 一樣的功能與使用，按 `F5` 可以自動編譯，本人是覺得相當好用，但如果程式執行速度過快沒有等待或者任意鍵的停止動作會直接關閉甚至看不到視窗跑出來，但實際是有執行過但速度太快所以沒有看到。
+
+前往 [Atom Packages](https://atom.io/packages/gpp-compiler)  
+前往 [GitHub](https://github.com/kriscross07/atom-gpp-compiler)  
 
 ## PLC
 - [language-structured-text](https://atom.io/packages/language-structured-text)：PLC程式語法套件。  
@@ -218,9 +267,10 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 - [markdown-image-assistant](https://atom.io/packages/markdown-image-assistant)：一個很好用的照片貼上套件，可以將照片拖曳到指定的欄位，使用`Ctrl + Shift + V`的快捷鍵，不影響原始的複製貼上快捷鍵。
 
 ### [Markdown preview enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
-強大的 Markdown 及時預覽工具，可與 code 同步位置捲動。    
-可用他查看用 Markdown 格式的投影片、流程圖、LaTeX數學、電子書...等    
-另支援輸出 PDF、PNG、JPEG 的檔案。    
+強大的 Markdown 及時預覽工具，可與 code 同步位置捲動。  
+
+可用他查看用 Markdown 格式的投影片、流程圖、LaTeX數學、電子書...等另支援輸出 PDF、PNG、JPEG 的檔案。  
+
 更多功能[點此網址](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-tw/)。    
 
 ![Markdown preview enhanced的使用狀況](https://i.imgur.com/WHPLhH9.gif)
@@ -235,6 +285,13 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 - [rst-preview-pandoc](https://atom.io/packages/rst-preview-pandoc)
 - [atom-rst-preview-docutils](https://atom.io/packages/atom-rst-preview-docutils)
 - [language-restructuredtext](https://atom.io/packages/language-restructuredtext)
+
+## Android
+
+- dart
+- atom-toolbar
+
+Dart部份已經沒有人在維護了，大家都轉移到 Android Studio ，但是可以使用的，只要更改版本位置就可以。
 
 ## Tool
 
@@ -251,87 +308,116 @@ IDE界面整合器，讓不同的套件可以在這上面使用，以下套件�
 
 > Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C, CoffeeScript, TypeScript, Coldfusion, SQL, and more in Atom
 
-| Before | After |
-| --- | ---- |
-| Original HTML | Beautified HTML |
+| Before                                                                                                         | After                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Original HTML                                                                                                  | Beautified HTML                                                                                                |
 | ![image](https://cloud.githubusercontent.com/assets/1885333/16542727/db52adc6-408a-11e6-824e-04aed06bd2f7.png) | ![image](https://cloud.githubusercontent.com/assets/1885333/16542728/dcac3700-408a-11e6-8e35-9c8fc4432edc.png) |
 
-### [Highlight Selected](https://github.com/richrace/highlight-selected)
-輕點2下自動高亮
+### [highlight-selected](https://atom.io/packages/highlight-selected)
+輕點2下自動突顯其他一致的字詞，快速尋找。
 
 ![Gif in action](http://i.imgur.com/C5FnzzQ.gif)
 
-### [Minimap](https://github.com/atom-minimap/minimap)
-可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。    
-Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。    
+### [minimap](https://atom.io/packages/minimap)
+可在視窗左右側顯示一張程式碼地圖，協助你快速掌握全局。 Minimap [有許多的輔助套件](https://github.com/atom-minimap/minimap#available-plugins)可以下載安裝，例如 [Highlight Selected](https://atom.io/packages/minimap-highlight-selected) 跟上方介紹的 Highlight Selected 一樣會在 minimap 中高亮所選的字。
 
 ![Imgur](https://i.imgur.com/qZoWRw3.png)
 
-### [File Icons](https://atom.io/packages/file-icons)
-幫文件加上 icons ，方便識別文件。    
+### Icons
+幫文件加上 Icons ，方便識別文件。
 
-![Imgur](https://i.imgur.com/TrCvBWn.png)
-### [Platformio ide terminal](https://github.com/platformio/platformio-atom-ide-terminal)
-能讓你在 Atom 中開啟終端(CLI、cmd)
+#### [file-icons](https://atom.io/packages/file-icons)
+最後更新時間是2021年，推薦使用這個，圖片完善且完整。
+
+![](https://raw.githubusercontent.com/file-icons/atom/6714706f268e257100e03c9eb52819cb97ad570b/preview.png)
+
+#### [front-icons](https://atom.io/packages/front-icons)
+最後更新時間是2019年。
+
+![](https://raw.githubusercontent.com/donovanhiland/atom-file-icons/master/icons-on-dark.png)
+
+#### [atom-file-icons](https://atom.io/packages/atom-file-icons)
+最後更新時間是2019年。
+
+#### [atom-icons](https://atom.io/packages/atom-icons)
+最後更新時間是2016年。
+
+### 終端機
+能讓你在 Atom 中開啟終端機(CLI)或提示字元命令 CMD 。
+
+#### [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
+目前最多人使用的套件，也應該問題最少，目前是更新時間最新的，2020年更新。為 PlatformIO 維護，是相當活躍的組織，是針對嵌入式系統開發為目標。
 
 ![Imgur](https://i.imgur.com/YrIwZMQ.gif)
 
+#### [atom-ide-terminal](https://atom.io/packages/atom-ide-terminal)
+建議此不要使用了，最後一次更新是 2018 年。
+
 ### [Sync settings](https://github.com/atom-community/sync-settings)
 可用來 **同步或備份** 你的 Atom 所有套件、設定。
-* Sync Atom's and package settings
-* Sync installed packages
-* Sync user keymaps
-* Sync user styles
-* Sync user init script
-* Sync snippets
-* Sync user defined text files
 
-### [Regex railroad diagram](https://github.com/klorenz/atom-regex-railroad-diagrams)
-讓你複雜的正則式以圖形化的方式呈現
-終於不是寫完後就變成無字天書了QwQ
+- Sync Atom's and package settings
+- Sync installed packages
+- Sync user keymaps
+- Sync user styles
+- Sync user init script
+- Sync snippets
+- Sync user defined text files
+
+### Regex
+### [atom-regex-railroad-diagrams](https://github.com/klorenz/atom-regex-railroad-diagrams)
+讓你複雜的正規表達式以圖形化的方式呈現，終於不是寫完後就變成無字天書了QwQ。這個在C語言很好用。最後更新時間是2017年，但可能很好用。
 
 ![regex-railraod-diagram in action](https://raw.githubusercontent.com/klorenz/atom-regex-railroad-diagrams/master/regex-railroad-diagrams.png)
 
 ### [Activate Power Mode](https://github.com/JoelBesada/activate-power-mode)
-讓你輸入 code 特別有氣勢的東西(?    
-話說我覺得 combo 太干擾我的節奏就關了
+讓你輸入 code 特別有氣勢的東西(?
+
+話說我覺得 combo 太干擾我的節奏就關了。
 
 ![activate-power-mode-0 4 0](https://cloud.githubusercontent.com/assets/688415/11615565/10f16456-9c65-11e5-8af4-265f01fc83a0.gif)
 ![activate-power-mode-combo](https://cloud.githubusercontent.com/assets/10590799/18817237/876c2d84-8321-11e6-8324-f1540604c0bd.gif)
 
-### [Atom cht menu](https://atom.io/packages/platformio-ide-terminal)
-Atom 中文化    
-感謝作者大大 m(_ \_)m  雖然已經看習慣英文了
+### [cht-menu](https://atom.io/packages/cht-menu)
+Atom 中文化，感謝作者大大，雖然已經看習慣英文了。目前可能會暫停維護，最新版本2017年。雖然個人不捨，陪伴了五年了，而且比較喜歡這個的翻譯，但還是必須捨棄此套件。
 
 ![Atom 中文化畫面](https://raw.githubusercontent.com/Sheng-Bo/atom-cht-menu/master/screenshot/03.png)
 
-### [Atom-i18n](https://github.com/liuderchi/atom-i18n)
-Atom 中文化
-嚴格來說是國際化，使用 i18n 的方式翻譯。
-而且這個套件不會拖到什麼效能，比上一個好很多，推推。
+### [atom-i18n](https://github.com/liuderchi/atom-i18n)
+Atom 中文化，嚴格來說是國際化，使用 i18n 的方式翻譯。而且這個套件不會拖到什麼效能，比上一個好很多，推推。
+
 ![](https://cloud.githubusercontent.com/assets/4994705/23652298/5123f294-0363-11e7-8f8f-e9c83f19710e.png)
 
-### [Teletype](https://github.com/atom/teletype)
+### [teletype](https://github.com/atom/teletype)
 能夠讓你跟其他人同時編輯同一份文件的東東。
 
 ![demo](https://user-images.githubusercontent.com/2988/32753167-d781baf0-c899-11e7-8b64-683ab84d3a8c.gif)
 
-### [wakatime](https://github.com/wakatime/atom-wakatime)
+### [atom-wakatime](https://github.com/wakatime/atom-wakatime)
 紀錄你的 coding 時間，可同步其他的編輯器紀錄，也可每周寄報表到你的信箱。
+
 ![Project Overview](https://wakatime.com/static/img/ScreenShots/Screen-Shot-2016-03-21.png)
 
-### [Git time machine](https://github.com/littlebee/git-time-machine)    
-可用圖示化的方式來查看 git commit 差異    
+### [git-time-machine](https://github.com/littlebee/git-time-machine)    
+可用圖示化的方式來查看 git commit 差異
+
 ![Git time machine GIF](https://raw.githubusercontent.com/littlebee/git-time-machine/master/resources/timemachine.gif)
 
 ### [context-menu-manager](https://github.com/hughfenghen/context-menu-manager)
-自定義右键選單。    
+自定義右键選單。  
+
 ![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/compare.png)     
 
-管理界面      
+管理界面
+
 ![](https://raw.githubusercontent.com/hughfenghen/context-menu-manager/master/resources/manager-view.png)     
 
+### Diagram
+- flow-diagram
+- diagrams
+
 # 參考資料
+
 - [開發環境建構](https://github.com/TSVS-Special-Topic-Group/Development-Environment-Build)
 - [Atom 套件推薦](https://github.com/we684123/Atom_packages/tree/8663ebefbbcaf7003b6806314be70cc751cc7773)
 - [Setting up Atom as a Python IDE [A How To Guide]](https://hackernoon.com/setting-up-atom-as-a-python-ide-a-how-to-guide-o6dd37ff)
