@@ -1,3 +1,6 @@
+#  ⚠️Atom 將於 2022年12月15日 被封存⚠️
+https://github.blog/2022-06-08-sunsetting-atom/
+
 # Atom套件推薦
 主要介紹Atom的程式開發、「整合開發環境」(IDE)、「除錯工具」(Debugger tool)等套件，主要以Python、C、TypeScript、JavaScript、Markdown的工具。
 
